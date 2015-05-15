@@ -1,4 +1,1 @@
-2048
-====
-
-The best game you'll ever hate.
+Cloud code project for 2048. Cloud Code Guide: https://cn.avoscloud.com/docs/cloud_code_guide.html
