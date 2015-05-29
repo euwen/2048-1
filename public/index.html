@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+
+    <style type="text/css">
+    div img{
+        max-width: device-width
+        width:expression_r(document.body.clientWidth>320?"320":"auto");
+        overflow: hidden;
+    }
+    </style>
 </head>
 
 <body>
@@ -20,17 +29,18 @@
         <h1>有虾逛， 不虾逛</h1>
     </div>
 
+<!--
     <div style="width: 50%; height: auto; float: left; display:inline">
         <p align="center">欢迎关注虾逛的公众号！</p>
-        <p style="text-align:center;"><img width: 48% src="./img/虾逛微信关注.png" /></p>
+        <p style="text-align:center;"><img src="./img/虾逛微信关注.png" /></p>
     </div>
 
     <div style="width: 50%; height: auto; float: left; display:inline">
         <p align="center">欢迎下载虾逛APP！</p>
-        <p style="text-align:center;"><img width: 48% src="./img/安卓ios通用下载.png" /></p>
+        <p style="text-align:center;"><img src="./img/安卓ios通用下载.png" /></p>
     </div>
 
-<!--
+
     <div data-role="content"  style="text-aligh:center">
         <span width = 45% >
             <p>欢迎关注虾逛的公众号！</p>
@@ -41,10 +51,17 @@
             <img src="./img/安卓ios通用下载.png" />
         </span>
 
+    </div>
+-->
+
+    <div data-role="content"  style="text-aligh:center">
+        <span width = 45% >
+            <p align="center">欢迎关注虾逛的公众号！</p>
+            <p style="text-align:center;"><img src="./img/虾逛微信关注.png" /></p>
+        </span>
 
     </div>
 
--->
 
     <div data-role="footer">
         <h4>Powered by 深圳志展云图信息科技有限公司</h4>
